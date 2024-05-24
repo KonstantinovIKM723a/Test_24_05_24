@@ -148,7 +148,7 @@ int main() {
     float averageScore;
     cin >> averageScore;
     student.setAverageScore(averageScore);
-    cout << "Середній бал студента: " << student.getAverageScore() << endl;
+    cout << "Середній бал студента: " << student.getAverageScore() << endl << endl;
     student.showInfo();
 
     cout << "2. Створіть клас \"Трикутник\", який містить атрибути для зберігання довжин сторін." << endl;
@@ -167,7 +167,7 @@ int main() {
     string right = triangle.isRight() ? "" : "не ";
     cout << "Трикутник " << right << "є прямокутним" << endl;
 
-    cout << "Наслідування" << endl;
+    cout << endl << "Наслідування" << endl;
     cout << "1. Створіть клас \"Фігура\", який має атрибут для кольору." << endl;
     cout << "Створіть підкласи, такі як \"Коло\", \"Прямокутник\" та \"Трикутник\", які наслідують клас \"Фігура\"." << endl;
     cout << "Кожен з підкласів повинен мати свої власні атрибути та методи, наприклад, для обчислення площі." << endl;
