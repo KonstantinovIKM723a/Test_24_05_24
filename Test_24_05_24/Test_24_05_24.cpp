@@ -124,7 +124,6 @@ public:
     float getMaxCapacity() { return getPower(); }
 };
 
-
  
 int main() {
     SetConsoleCP(1251);
